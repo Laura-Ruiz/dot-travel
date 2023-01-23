@@ -28,7 +28,7 @@ export default function Navbar() {
     <section className="navBarSection">
       <div className={transparent}>
         <div className="logoDiv">
-          <a href="/some/valid/uri" className="logo">
+          <a href="/" className="logo">
             <h1 className="flex">
               <SiYourtraveldottv className="icon" />
               Dot
@@ -39,39 +39,39 @@ export default function Navbar() {
         <div className={active}>
           <ul className="navLists flex">
             <li className="navItem">
-              <a href="/some/valid/uri" className="navLink">
+              <a href="/" className="navLink">
                 Inicio
               </a>
             </li>
 
             <li className="navItem">
-              <a href="/some/valid/uri" className="navLink">
+              <a href="/" className="navLink">
                 Productos
               </a>
             </li>
 
             <li className="navItem">
-              <a href="/some/valid/uri" className="navLink">
+              <a href="/" className="navLink">
                 Recursos
               </a>
             </li>
             <li className="navItem">
-              <a href="/some/valid/uri" className="navLink">
+              <a href="/" className="navLink">
                 Contacto
               </a>
             </li>
             <li className="navItem">
-              <a href="/some/valid/uri" className="navLink">
+              <a href="/" className="navLink">
                 Blog
               </a>
             </li>
             
             <div className="headerBtns flex">
               <button className="btn loginBtn">
-                <a href="/some/valid/uri">Login</a>
+                <a href="/">Login</a>
               </button>
               <button className="btn">
-                <a href="/some/valid/uri">Sign Up</a>
+                <a href="/">Sign Up</a>
               </button>
             </div>
           </ul>

@@ -56,10 +56,10 @@ export default function Footer() {
         <div className="footerLinks">
           <span className="linkTitle">Enlaces útiles</span>
           <li>
-            <a href="s>Destino</a>
+            <a href="/" >Destino</a>
           </li>
           <li>
-            <a href="s>Soporte</a>
+            <a href="/" >Soporte</a>
           </li>
           <li>
             <a href="/">Viajes y Condiciones</a>

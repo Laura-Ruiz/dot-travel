@@ -20,7 +20,7 @@ export default function Home() {
             Viaja a tu ciudad favorita respetando el medioambiente!
           </p>
           <button data-aos="fade-up" data-aos-duration="3000" className='btn'>
-            <a href="/some/valid/uri">Explorar</a>
+            <a href="/">Explorar</a>
           </button>
         </div>
 
