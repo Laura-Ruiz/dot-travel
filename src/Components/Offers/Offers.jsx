@@ -22,21 +22,21 @@ const Offer = [
     imgSrc: img8,
     destTitle: "Machu Picchu",
     location: "Peru",
-    price: "$7,427",
+    price: "7.427€",
   },
   {
     id: 2,
     imgSrc: img1,
     destTitle: "Guanajuato",
     location: "Mexico",
-    price: "$2,658",
+    price: "2.658€",
   },
   {
     id: 3,
     imgSrc: img7,
     destTitle: "Angkor Wat",
     location: "Cambodia",
-    price: "$4,400",
+    price: "4.400€",
   },
 ];
 

@@ -96,4 +96,5 @@
 }
 .offer .secContainer .mainContent .singleOffer:hover {
   transform: translateY(-7px);
+  transition-duration: 0;
 }/*# sourceMappingURL=offers.css.map */
