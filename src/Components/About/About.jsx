@@ -18,23 +18,23 @@ export default function About() {
   return (
     <section className='about section'>
       <div className="secContainer">
-        <h2 className="title">
-          ¿Por qué senderimos?
+        <h2 data-aos="fade-up" data-aos-duration="2000" className="title">
+          ¿Por Qué Senderimo?
         </h2>
 
-        <div className="mainContent container grid">
-          <div data-aos="fade-up" data-aos-duration="2000" className="singleItem">
+        <div data-aos="fade-up" data-aos-duration="2000" className="mainContent container grid">
+          <div className="singleItem">
             <img src={img2} alt="mountains" />
             <h3>+100 montañas</h3>
             <p>Las investigaciones muestran que la oportunidad de romper con los ritmos normales de la vida diaria reduce el estrés y mejora la salud y el bienestar.</p>
           </div>
-          <div data-aos="fade-up" data-aos-duration="2500" className="singleItem">
+          <div className="singleItem">
             <img src={img3} alt="hikings" />
             <h3>+1000 rutas
             </h3>
             <p>Las investigaciones muestran que la oportunidad de romper con los ritmos normales de la vida diaria reduce el estrés y mejora la salud y el bienestar.</p>
           </div>
-          <div data-aos="fade-up" data-aos-duration="3000" className="singleItem">
+          <div className="singleItem">
             <img src={img} alt="customer" />
             <h3>+2000 clientes</h3>
             <p>Las investigaciones muestran que la oportunidad de romper con los ritmos normales de la vida diaria reduce el estrés y mejora la salud y el bienestar.</p>

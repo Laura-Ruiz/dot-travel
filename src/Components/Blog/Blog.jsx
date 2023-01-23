@@ -44,9 +44,9 @@ export default function Blog() {
   return (
     <section className="blog container section">
       <div className="secContainer">
-        <div className="secIntro">
-          <h2 data-aos="fade-up" data-aos-duration="2000" className="secTitle">¿Nuestro Mejor Blog?</h2>
-          <p data-aos="fade-up" data-aos-duration="2500" >Una visión de la increíble experiencia en el mundo.</p>
+        <div data-aos="fade-up" data-aos-duration="2000"className="secIntro">
+          <h2  className="secTitle">¿Nuestro Mejor Blog?</h2>
+          <p >Una visión de la increíble experiencia en el mundo.</p>
         </div>
 
         <div className="mainContainer grid">
@@ -57,12 +57,12 @@ export default function Blog() {
                   <img src={post.postImg} alt={post.title} />
                 </div>
                 <div className="postDetails">
-                  <h3 data-aos="fade-up" data-aos-duration="3000">{post.title}</h3>
-                  <p data-aos="fade-up" data-aos-duration="4000">
+                  <h3 >{post.title}</h3>
+                  <p >
                    {post.desc}
                   </p>
                 </div>
-                <a data-aos="fade-up" data-aos-duration="4500" href="/some/valid/uri" className="flex">
+                <a  href="/" className="flex">
                   Leer más
                   <BsArrowRightShort className="icon" />
                 </a>

@@ -25,24 +25,24 @@ export default function Home() {
         </div>
 
         <div className="homeCard grid">
-          <div data-aos="fade-right" data-aos-duration="2000" className="locationDiv">
+          <div className="locationDiv">
             <label htmlFor="location">
             </label>
             <input type="text" placeholder='Destino soñado' />
           </div>
-          <div data-aos="fade-right" data-aos-duration="2500"  className="distDiv">
+          <div className="distDiv">
             <label htmlFor="distance">
             </label>
             <input type="text" placeholder='11 Km' />
 
           </div>
-          <div data-aos="fade-right" data-aos-duration="3000" className="priceDiv">
+          <div className="priceDiv">
             <label htmlFor="price">
             </label>
             <input type="text" placeholder='140€-500€' />
 
           </div>
-          <button data-aos="fade-left" data-aos-duration="2000"  className='btn'>
+          <button className='btn'>
             Buscar
           </button>
         </div>

@@ -16,13 +16,11 @@ export default function Footer() {
   return (
     <section className="footer">
       <div className="secContainer container grid">
-        <div data-aos="fade-up" data-aos-duration="2000" className="logoDiv">
+        <div className="logoDiv">
           <div
-            data-aos="fade-up"
-            data-aos-duration="2000"
             className="footerLogo"
           >
-            <a href="/some/valid/uri" className="logo flex">
+            <a href="/" className="logo flex">
               <h1 className="flex">
                 <SiYourtraveldottv className="icon" />
                 Dot
@@ -31,8 +29,6 @@ export default function Footer() {
           </div>
 
           <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
             className="socials flex"
           >
             <ImFacebook className="icon" />
@@ -41,39 +37,39 @@ export default function Footer() {
           </div>
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="3000" className="footerLinks">
+        <div className="footerLinks">
           <span className="linkTitle">Información</span>
           <li>
-            <a href="/some/valid/uri">Inicio</a>
+            <a href="/">Inicio</a>
           </li>
           <li>
-            <a href="/some/valid/uri">Explorar</a>
+            <a href="/">Explorar</a>
           </li>
           <li>
-            <a href="/some/valid/uri">Viajes</a>
+            <a href="/">Viajes</a>
           </li>
           <li>
-            <a href="/some/valid/uri">Blog</a>
+            <a href="/">Blog</a>
           </li>
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="4000" className="footerLinks">
+        <div className="footerLinks">
           <span className="linkTitle">Enlaces útiles</span>
           <li>
-            <a href="some/valid/uri">Destino</a>
+            <a href="s>Destino</a>
           </li>
           <li>
-            <a href="some/valid/uri">Soporte</a>
+            <a href="s>Soporte</a>
           </li>
           <li>
-            <a href="/some/valid/uri">Viajes y Condiciones</a>
+            <a href="/">Viajes y Condiciones</a>
           </li>
           <li>
-            <a href="/some/valid/uri">Privacidad</a>
+            <a href="/">Privacidad</a>
           </li>
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="5000" className="footerLinks">
+        <div className="footerLinks">
           <span className="linkTitle">Contacta con nosotros</span>
           <span className="phone">+34 649038455</span>
           <span className="email">agencia.dot@gmail.com</span>

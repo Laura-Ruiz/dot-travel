@@ -50,14 +50,14 @@ export default function Offers() {
   return (
     <section className="offer container section">
       <div className="secContainer">
-        <div data-aos="fade-up" data-aos-duration="2000" className="secIntro">
+        <div data-aos="fade-up " data-aos-duration="2000" className="secIntro">
           <h2 className="secTitle">Ofertas Especiales</h2>
           <p>Desde ciudades históricas hasta espectáculos naturales, ¡ven a ver lo mejor del mundo!</p>
         </div>
         <div className="mainContent grid">
           {Offer.map((offer) => {
             return (
-              <div data-aos="fade-up" data-aos-duration="3000" key={offer.id} className="singleOffer">
+              <div data-aos="fade-up" data-aos-duration="2000" key={offer.id} className="singleOffer">
                 <div className="destImage">
                   <img src={offer.imgSrc} alt={offer.destTitle} />
                   <span className="discount">-30%</span>
